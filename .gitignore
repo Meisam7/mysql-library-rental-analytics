@@ -1,0 +1,40 @@
+# IntelliJ IDEA / DataGrip project files
+.idea/
+*.iml
+*.iws
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Environment / secrets
+.env
+.env.*
+*.local
+
+# Database dumps / backups
+*.dump
+*.backup
+*.bak.sql
+
+# Large generated exports
+exports/*.csv
+exports/*.xlsx
+exports/*.json
+
+# Keep exports folder structure
+!exports/.gitkeep
+
+# Generated reports if needed
+reports/generated/
