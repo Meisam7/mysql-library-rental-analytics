@@ -57,11 +57,8 @@ Main tables:
 
 ## ER Diagram
 
-The ER diagram for this database is available in:
-
-```text
-docs/er_diagram.png
-```
+This is The ER diagram for this database:
+![ER Diagram](docs/er_diagram.png)
 
 It shows the relationships between members, books, authors, categories, copies, loans, payments, reservations, reviews, staff, and branches.
 
