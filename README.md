@@ -55,6 +55,16 @@ Main tables:
 | `staff` | Library staff |
 | `audit_logs` | Simple audit log records |
 
+## ER Diagram
+
+The ER diagram for this database is available in:
+
+```text
+docs/er_diagram.png
+```
+
+It shows the relationships between members, books, authors, categories, copies, loans, payments, reservations, reviews, staff, and branches.
+
 ## Folder Structure
 
 ```text
@@ -74,10 +84,12 @@ mysql-library-rental-analytics/
 │   └── 06_views_indexes_transactions.sql
 │
 ├── docs/
+│   ├── er_diagram.png
 │   └── project_notes.md
 │
 ├── reports/
-│   └── business_questions.md
+│   ├── business_questions.md
+│   └── query_results.md
 │
 └── exports/
     └── .gitkeep
@@ -238,6 +250,12 @@ More business questions are listed in:
 reports/business_questions.md
 ```
 
+Selected query examples and explanations are available in:
+
+```text
+reports/query_results.md
+```
+
 ## Example Query
 
 ```text
@@ -292,7 +310,6 @@ Possible extensions:
 - Add stored procedures
 - Add triggers for audit logs
 - Add more realistic sample data
-- Add ER diagram image
 - Add CSV exports
 - Add dashboard integration with Power BI or Tableau
 - Add performance comparison using `EXPLAIN`
