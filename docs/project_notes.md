@@ -129,7 +129,7 @@ This is expected because the indexes already exist.
 
 The views are created with:
 
-```sql
+```text
 CREATE OR REPLACE VIEW
 ```
 

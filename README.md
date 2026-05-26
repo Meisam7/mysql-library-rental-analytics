@@ -32,7 +32,7 @@ The project covers:
 
 The database is called:
 
-```sql
+```text
 library_rental_analytics
 ```
 
@@ -240,7 +240,7 @@ reports/business_questions.md
 
 ## Example Query
 
-```sql
+```text
 SELECT
     m.member_id,
     CONCAT(m.first_name, ' ', m.last_name) AS member_name,
